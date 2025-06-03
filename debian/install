@@ -1,0 +1,2 @@
+ShareMax/ShareMaxData/99-ShareMax.rules		/etc/udev/rules.d/
+ShareMax/ShareMaxData/X86/EDeviceMonitor	/usr/share/lliurex-newline-dongle/sharemax/

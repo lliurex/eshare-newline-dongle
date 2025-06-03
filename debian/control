@@ -1,0 +1,17 @@
+Source: lliurex-newline-dongle
+Section: misc
+Priority: optional
+Maintainer: LliureX Team <lliurex@gva.es> 
+Standards-Version: 4.3.0
+Build-Depends: debhelper-compat (= 10)
+Homepage: https://github.com/lliurex/lliurex-inventory-agent
+
+Package: lliurex-newline-dongle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, systemd, udev
+Description:  LliureX newline dongle support
+ The package installs newline ShareMax software and required udev rules,
+ systemd services an xdg session scripts to use newline dongle device.
+ . 
+ The newline dongle allows wireless screen mirroring and touchscreen
+ support for newline interactive displays.
