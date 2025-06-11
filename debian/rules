@@ -2,3 +2,13 @@
 %:
 	dh $@
 
+override_dh_install:
+	dh_install
+	chmod 755  debian/lliurex-newline-dongle/usr/share/lliurex-newline-dongle/sharemax/EDeviceMonitor
+
+override_dh_strip:
+	dh_strip --exclude=debian/lliurex-newline-dongle/usr/share/lliurex-newline-dongle/sharemax/EDeviceMonitor
+
+override_dh_installudev:
+	dh_installudev --priority=99
+
