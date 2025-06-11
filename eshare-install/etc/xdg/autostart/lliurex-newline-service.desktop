@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=LliureX Newline service
+Comment=Load some certificates into Firefox database
+Exec=/usr/bin/lliurex-newline-service
+Terminal=false
+Type=Application
+Categories=
+GenericName=

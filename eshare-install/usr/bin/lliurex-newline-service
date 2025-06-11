@@ -1,0 +1,3 @@
+#!/bin/sh
+systemctl --user stop EDeviceMonitor
+systemctl --user start EDeviceMonitor
