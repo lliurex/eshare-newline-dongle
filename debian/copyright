@@ -1,10 +1,15 @@
 Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=143
 Upstream-Name: update-hosts
-Upstream-Source: https://github.com/lliurex/lliurex-newline-dongle
+Upstream-Source: https://github.com/lliurex/eshare-newline-dongle
 
 Files: *
 Copyright: Copyright 2025 Luis Garcia Gisbert <luisgg@gmail.com>
+	   Copyright 2025 Juan Ramon Pelegrina <juapesai@hotmail.com>
 License: GPL-3+
+ 
+Files: eshare-install/*
+Copyright: Copyright EShare Technology Corporation (https://www.ee-share.com/)
+License: ShareMax EULA & Privacy Policy
  
 License: GPL-3+
 
@@ -14,4 +19,19 @@ License: GPL-3+
    any later version.
    on any Debian system you can https://github.com/lliurex/lliurex-inventory-agentat
    '/usr/share/common-licenses/GPL'
+
+License: ShareMax EULA & Privacy Policy
+   EShare Technology Corporation grants permission to distribute ShareMax through the
+   following means for the LliureX project:
+   - Including the installed binaries within any computer with the LliureX OS that is
+     distributed to an educational center.
+   - Distributing the installed binaries within LliureX installation or recovery ISO
+     images, keeping in mind that these images will be publicly available for download
+     on the Internet.
+   - Including it as a binary package within the public LliureX repository, so that the
+     programs can be installed and used from any device running the LliureX OS.
+   This permission is granted specifically for the Valencia educational project and
+   LliureX OS distribution as described above.
+   The complete license and terms of use can be found at:
+   https://link.edgepilot.com/s/3ec175e7/mQOCrewbp0mAkBxcBm0ZyQ?u=https://eshare.app/eula/sharemax.html
 
