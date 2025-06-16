@@ -1,15 +1,15 @@
-Source: lliurex-newline-dongle
+Source: eshare-newline-dongle
 Section: misc
 Priority: optional
 Maintainer: LliureX Team <lliurex@gva.es> 
 Standards-Version: 4.3.0
 Build-Depends: debhelper-compat (= 10)
-Homepage: https://github.com/lliurex/lliurex-inventory-agent
+Homepage: https://github.com/lliurex/eshare-newline-dongle
 
-Package: lliurex-newline-dongle
+Package: eshare-newline-dongle
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, systemd, udev
-Description:  LliureX newline dongle support
+Description:  LliureX eShare newline dongle support
  The package installs newline ShareMax software and required udev rules,
  systemd services an xdg session scripts to use newline dongle device.
  . 

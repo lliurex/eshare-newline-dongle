@@ -5,7 +5,7 @@ Description=Device Monitor of EShare
 #Environment="DISPLAY=:0"
 Environment="XAUTHORITY=%h/.Xauthority"
 #ExecStart=/opt/StarryHubClickDrop/EDeviceMonitor    
-ExecStart=/usr/share/lliurex-newline-dongle/sharemax/EDeviceMonitor
+ExecStart=/usr/share/eshare-newline-dongle/sharemax/EDeviceMonitor
 #ExecStart=/home/kylin/code/EDeviceMonitor/build/EDeviceMonitor
 
 [Install]

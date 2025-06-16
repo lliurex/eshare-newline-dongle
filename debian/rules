@@ -4,10 +4,10 @@
 
 override_dh_install:
 	dh_install
-	chmod 755  debian/lliurex-newline-dongle/usr/share/lliurex-newline-dongle/sharemax/EDeviceMonitor
+	chmod 755  debian/eshare-newline-dongle/usr/share/eshare-newline-dongle/sharemax/EDeviceMonitor
 
 override_dh_strip:
-	dh_strip --exclude=debian/lliurex-newline-dongle/usr/share/lliurex-newline-dongle/sharemax/EDeviceMonitor
+	dh_strip --exclude=debian/eshare-newline-dongle/usr/share/eshare-newline-dongle/sharemax/EDeviceMonitor
 
 override_dh_installudev:
 	dh_installudev --priority=99
