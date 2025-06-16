@@ -1,2 +1,3 @@
-eshare-install/*					/
+eshare-install/*				/
 ShareMax/ShareMaxData/X86/EDeviceMonitor	/usr/share/eshare-newline-dongle/sharemax/
+ShareMax/ShareMaxData/EDeviceMonitor.service	/usr/lib/systemd/user/

@@ -28,6 +28,12 @@ case "$1" in
 
 	# refresh udev
 	# refresh systemd
+
+	systemctl daemon-reload || true
+	udevadm control --reload
+	udevadm trigger
+
+
 	
     ;;
 
