@@ -8,7 +8,7 @@ Homepage: https://github.com/lliurex/eshare-newline-dongle
 
 Package: eshare-newline-dongle
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, systemd, udev
+Depends: ${shlibs:Depends}, ${misc:Depends}, systemd, udev, lliurex-auto-upgrade (>= 0.16.2)
 Description:  LliureX eShare newline dongle support
  The package installs newline ShareMax software and required udev rules,
  systemd services an xdg session scripts to use newline dongle device.
