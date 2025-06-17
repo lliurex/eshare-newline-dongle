@@ -1,3 +1,9 @@
+eshare-newline-dongle (1.1) jammy; urgency=medium
+
+  * Added depend on lliurex-auto-upgrade (>= 0.16.2)
+
+ -- Luis Garcia Gisbert <luisgg@gmail.com>  Tue, 17 Jun 2025 17:58:05 +0200
+
 eshare-newline-dongle (1.0) jammy; urgency=medium
 
   * First version on jammy 
