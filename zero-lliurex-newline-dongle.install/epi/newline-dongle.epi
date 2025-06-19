@@ -1,8 +1,0 @@
-{
-	"type":"apt",
-	"pkg_list":[{"name":"lliurex-newline-dongle","custom_name":"Newline dongle software","custom_icon":"newline-dongle.png"}],
-	"script":{"name":"/usr/share/zero-lliurex-newline-dongle/newline-dongle_script","remove":true},
-	"custom_icon_path":"/usr/share/zero-lliurex-newline-dongle/",
-	"zomando":"zero-lliurex-newline-dongle"
-
-} 
