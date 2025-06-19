@@ -1,0 +1,8 @@
+{
+	"type":"apt",
+	"pkg_list":[{"name":"eshare-newline-dongle","custom_name":"EShare Newline dongle software","custom_icon":"eshare-newline-dongle.png"}],
+	"script":{"name":"/usr/share/zero-lliurex-eshare-newline-dongle/eshare-newline-dongle_script","remove":true},
+	"custom_icon_path":"/usr/share/zero-lliurex-eshare-newline-dongle/",
+	"zomando":"zero-lliurex-eshare-newline-dongle"
+
+} 
