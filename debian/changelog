@@ -1,3 +1,9 @@
+eshare-newline-dongle (1.2) jammy; urgency=medium
+
+  * Added zero installer
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 26 Jun 2025 08:33:46 +0200
+
 eshare-newline-dongle (1.1) jammy; urgency=medium
 
   * Added depend on lliurex-auto-upgrade (>= 0.16.2)
