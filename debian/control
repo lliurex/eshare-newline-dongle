@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: LliureX Team <lliurex@gva.es> 
 Standards-Version: 4.3.0
-Build-Depends: debhelper-compat (= 10)
+Build-Depends: debhelper-compat (= 10),zero-dev, llxsrchelper,inkscape (>= 0.47)
 Homepage: https://github.com/lliurex/eshare-newline-dongle
 
 Package: eshare-newline-dongle
@@ -15,3 +15,10 @@ Description:  LliureX eShare newline dongle support
  . 
  The newline dongle allows wireless screen mirroring and touchscreen
  support for newline interactive displays.
+
+Package: zero-lliurex-eshare-newline-dongle
+Architecture: all
+Section: x11
+Depends: zero-center,epi-gtk
+Description: newline ShareMax installer
+  Zero-center helper, It installs newline ShareMax
